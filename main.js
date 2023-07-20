@@ -386,7 +386,7 @@ function printLocation(locations) {
 		const [lt, ln] = loc.coords
 		const c = `
 		<div
-			style="opacity: 1"
+			style="opacity: 0"
 			class="fixed pointer-events-none select-none card w-64 flex flex-col bg-amber-100 rounded border-4 border-gray-900 shadow-brutal"
 		>
 			<div class="bg-blue-300 h-8 border-b-4 border-gray-900">
